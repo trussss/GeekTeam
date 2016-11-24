@@ -1,0 +1,249 @@
+.logoTextFirstWord{
+	color:#000000;
+}
+.logoTextSecondWord{
+	color:#ffffff;
+}
+.top-container-margin{
+    margin-top: 10px;
+}
+.logoTextSecondWord, .logoTextFirstWord, .phones , .sliderText, .titleBlock, .logoTextFirstWordFooter{
+	font-weight: 600;
+}
+.navbar-inverse{
+	background-color: #96db4c;
+	border-color: #96db4c;
+}
+.navbar{
+	min-height:71px;
+	max-height:71px;
+}
+.marginForNavMenu{
+	margin-right: 50px;
+}
+.phonesBlockReduceWidth{
+    width: calc(25% - 50px);
+}
+.navCenterBlockMoreWidth{
+	width: calc(50% + 32px);
+}
+.phones {
+    height: 25px;
+    padding-top: 5px;
+    font-size: 12pt;
+    line-height: 20px;
+	color: #ffffff;
+}
+.mainSlider{
+	background: url('../img/mainSlider.png') no-repeat;
+	height:700px;
+}
+.sliderBlackFog:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 250px);
+    background: #000;
+    opacity: 0.68;
+}
+.sliderTexlOverlay{
+    position: relative;
+    top: -350px;
+    width: 800px;
+    margin-top: -150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+.jumbotron {
+    padding-top: 21px;
+    padding-bottom: 0px;
+	background-color: #ffffff;
+}
+.sliderText{  
+  font-size: 52pt;
+}
+.slideAfterHRText{
+    position: absolute;
+    width: 700px;
+    /* top: 118px; */
+    left: 52px;
+}
+.hr{
+	border-bottom: 4px solid;
+	width:	107px;
+}
+.titleBlock{
+	padding-bottom: 60px;
+	color: #595959;
+	font-size: 32pt;
+	text-align: center;
+}
+.reviewsBlock{
+
+}
+.circle{
+width: 30px;
+    height: 30px;
+    background: #82d42a;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+}
+.circleInside{
+    border: 3px solid #ffffff;
+    border-radius: 50px;
+    left: 19px;
+    position: absolute;
+}
+.firstCircle{
+
+}
+.firstCircleInside{
+    width: 21px;
+    height: 21px;
+    top: 5px;
+}
+.lineNearCircles{
+    z-index: -1;
+    height: 350px;
+    width: 1px;
+    position: relative;
+    top: 0;
+    background: #ddd;
+    left: 15px;
+}
+.secondCircle{
+	top: 80px;
+}
+.secondCircleInside{
+    width: 21px;
+    height: 21px;
+    top: 84px;
+    background: #ffffff;
+}
+.thirdCircle{
+	top: 160px;
+}
+.thirdCircleInside{
+    width: 21px;
+    height: 21px;
+    top: 164px;
+    background: #ffffff;
+}
+.fourthCircle{
+	top: 240px;
+}
+.fourthCircleInside{
+    width: 21px;
+    height: 21px;
+    top: 244px;
+    background: #ffffff;
+}
+.fifthCircle{
+	top: 320px;
+}
+.fifthCircleInside{
+    width: 21px;
+    height: 21px;
+    top: 324px;
+    background: #ffffff;
+}
+.reviewAvatar{
+    width: 200px;
+    /* padding-left: 64px; */
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:	10px;
+}
+.textUnderPictureBlock{
+	top: 38px;
+    margin-left: 100px;
+}
+.textUnderAva{
+	color: #82d42a;
+	font-size:	23pt;
+}
+.hrUnderAva{
+	color: #1e3910;
+	margin-left: 31px;
+}
+.textAfterHR{
+text-align: center;
+    margin-left: -158px;
+    width: 482px;
+    font-size: 13pt;
+    color: #595959;
+}
+.morePaddingBot{
+padding-bottom: 111px;
+}
+.photoContainer{
+	padding-top: 3px;
+    width: calc(100% - 35px);
+    margin-left: 5px;
+    padding-bottom: 4px;
+}
+.blackFog:before{
+    content: "";
+    position: absolute;
+    width: calc(100% - 7px);
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+}
+.blackFog:hover:before{
+	opacity:	0;
+}
+.emailUsBlock{
+padding-top: 78px;
+}
+.emailUsInput{
+	padding-left:20px;
+	outline: none;
+	width:300px;
+	height:53px;
+	border: 1px solid #1e3910;
+}
+.newBorder{
+    width: 300px;
+    margin-right: 20px;
+}
+.emailUsSendButton{
+	width: 285px;
+	height:53px;
+	text-align:center;
+	background:	#7ac62b;
+	left: 15px;
+}
+.emailUsButtonText{
+    color: #ffffff;
+    font-size: 16pt;
+    top: 21%;
+    left: 114px;
+    position: absolute;
+}
+.moreWidth{
+    width: calc(100% + 130px);
+}
+.footerGrass{
+    height: 134px;
+	background:url('../img/footerGrass.png') no-repeat;
+}
+.footerBar{
+	margin-top: -1px;
+    height: 112px;
+	background:url('../img/footerBar.png') no-repeat;
+}
+.footerOverlay{
+margin-top: -78px;
+}
+.logoTextFirstWordFooter{
+	color:#7ac62b;
+}
+.notBold{
+	font-weight:400;
+}
